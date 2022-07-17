@@ -1,0 +1,16 @@
+
+.title::after {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 4px;
+	background-color: rgb(165 243 252 );
+	left: 50%;
+	bottom: -5px;
+	transition: all 0.4s ease-in-out;
+}
+
+.container:hover .title::after {
+	width: 100%;
+	left: 0;
+}
